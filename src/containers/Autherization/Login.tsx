@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Grid, Typography, TextField, Button, Link, Paper, InputBase, CardMedia, CardContent } from '@material-ui/core';
 import Cookies from 'js-cookie';
 import { useNavigate } from 'react-router-dom';
-import { MarginDiv, StyledButton, StyledCardMedia, StyledPaper } from './Login.style';
+import { MarginDiv, StyledButton, StyledPaper } from './Login.style';
 import { useHttpService } from '../../services/useAxiosCustomHook';
 import { useSnackbar } from '../../utils/SnackBar';
 

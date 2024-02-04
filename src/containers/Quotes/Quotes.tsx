@@ -1,7 +1,7 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 import { useHttpService } from '../../services/useAxiosCustomHook';
-import { Avatar, Card, CardActions, CardContent, CardHeader, Grid, IconButton, Typography } from '@material-ui/core';
+import { Avatar, CardActions, CardContent, Grid, IconButton, Typography } from '@material-ui/core';
 import { CenteredDiv, LikeIconButton, QuotesContainer, StyledCardHeader, StyledQoteCard } from './Quotes.style';
 import CommentIcon from '@material-ui/icons/Comment';
 import FavoriteIcon from '@material-ui/icons/Favorite';

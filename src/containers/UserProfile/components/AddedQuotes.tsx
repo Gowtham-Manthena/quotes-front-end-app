@@ -1,11 +1,8 @@
 import React, { useEffect } from 'react';
 import Cookies from 'js-cookie';
-import { Avatar, Button, Card, CardActions, CardContent, Collapse, Dialog, DialogActions, DialogContent, DialogTitle, Divider, Grid, IconButton, Slide, Typography } from '@material-ui/core';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import { Button, CardContent, Collapse, Dialog, Divider, Grid, IconButton, Slide, Typography } from '@material-ui/core';
 import { useHttpService } from '../../../services/useAxiosCustomHook';
 import { useSnackbar } from '../../../utils/SnackBar';
-import { TransitionProps } from '@material-ui/core/transitions';
 import CommentIcon from '@material-ui/icons/Comment';
 import DeleteIcon from '@material-ui/icons/Delete';
 import FavoriteIcon from '@material-ui/icons/Favorite';

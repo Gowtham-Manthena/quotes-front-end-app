@@ -28,10 +28,3 @@ export const StyledPaper = styled((props: any) => <Paper { ...props } />)`
     background-color: #f2f2f2;
     height: 40px;
 `;
-
-export const StyledCardMedia = styled((props: any) => <CardMedia { ...props } />)`
-    /* && { */
-        /* background-position: bottom; */
-    /* } */
-
-`;
