@@ -1,3 +1,9 @@
+**GIT commands to initialze git in project**
+git init
+git remote add origin <repository link>
+git add .
+git push -u origin master (to push the code to master branch)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
